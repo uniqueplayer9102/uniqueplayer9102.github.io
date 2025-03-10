@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta lang="en-us">
+        <style>
+            body {
+              background: repeating-linear-gradient(
+                45deg,
+                #1e085a 0px,
+                #331171 20px,
+                #6d2ecc 20px,
+                #6246c7 40px
+              );
+              background-size: 56.57px 56.57px;
+              animation: moveStripes 3s linear infinite;
+            }
+            
+            @keyframes moveStripes {
+              from {
+                background-position: 0 0;
+              }
+              to {
+                background-position: 56.57px -56.57px;
+              }
+            }
+            
+            .stuff {
+                min-width: 75%;
+                min-height: 75%;
+                background-color: rgba(64, 64, 64, 0.75);
+                border-radius: 20px;
+                box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="stuff">
+            <h1>hiiiiiiii</h1>
+        </div>
+    </body>
+</html>
